@@ -1,52 +1,45 @@
-<h1 align='center'>console.log(" Hello devs <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="35" height="35">, Rajesh here ")</h1>
-<h4 align="center">DEVELOPER. GYM FREAK. MOVIES.</h4>
+<h1 align="center">
+  console.log("Hello devs 👋, Rajesh here")
+</h1>
 
+<p align="center">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="35" height="35">
+</p>
 
-### About Me
-```javascript
+<p align="center">
+  somewhere between <code>"it works"</code><br>
+  and <code>"why the hell does it work?"</code>
+</p>
 
-const Express = require('express');
-
-const app = Express();
-
-app.get("/about", (req , res) => {
-  res.status(404).json({
-    fullName: "rajesh ande",
-    interests: [
-      "coding 💻",
-      "movie 🎬",
-      "gym 🏋🏽",
-      "coffee ☕",
-    ],
-    askMeAbout: ["web dev", "mern", "movies"],
-    technologies: {
-      programming: [
-        "python",
-        "javascript",
-      ],
-      frontEnd: ["html", "tailwindcss", "javascript", "reactjs", "nextjs"],
-      backEnd: ["nodejs", "expressjs"],
-      database: ["mongodb"],
-      other: [
-        "adobe lightroom" 
-      ],
-    },
-  });
-});
-
-app.get("/contact", (req: Request, res: Response) => {
-  res.status(200).json({
-    email: "anderajesh15@gmail.com",
-    links: {
-      portfolio:"https://rajeshande.netlify.app/",
-      linkedin: "https://www.linkedin.com/in/rajesh-ande-2175ab197/",
-     
-    },
-  });
-});
-
-export default app;
-
+```js
+while (alive) {
+  build();
+  break();
+  debug();
+  learn();
+}
 ```
 
+```txt
+JavaScript · TypeScript
+React · Next.js · NestJS · Go
 
+coffee → code → chaos
+```
+
+### `currently`
+
+```txt
+building.
+breaking.
+figuring it out.
+shipping anyway.
+```
+
+### `elsewhere`
+
+[portfolio](https://rajeshande.netlify.app/) · [linkedin](https://www.linkedin.com/in/rajesh-ande-2175ab197/)
+
+<p align="center">
+  <code>build. break. understand.</code>
+</p>
